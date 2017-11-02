@@ -1,0 +1,27 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true,
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "airbnb",
+    ],
+    "rules": {
+        // "indent": [1, 2],
+        // "arrow-body-style": ["error", "as-needed"],
+        "no-console": 0,
+        "object-shorthand": 0,
+        "max-len": ["error", 255, { "ignoreComments": true }],
+        "react/prefer-es6-class": 1,
+        "react/prefer-stateless-function": 0,
+        "react/prop-types": 0,
+        "react/jsx-boolean-value": 0,
+        "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    }
+}

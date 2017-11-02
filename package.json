@@ -1,0 +1,29 @@
+{
+  "name": "orcamobile",
+  "version": "0.1.0",
+  "description": "Orca by Geothentitic",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "color": "^0.11.4",
+    "ex-react-native-i18n": "^0.0.3",
+    "expo": "^19.0.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-19.0.0.tar.gz",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.12",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}

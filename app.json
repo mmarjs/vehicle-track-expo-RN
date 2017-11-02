@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Orca Mobile",
+    "description": "Orca Mobile",
+    "slug": "orcamobile",
+    "privacy": "unlisted",
+    "sdkVersion": "19.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#00ff00",
+    "icon": "./assets/icons/app.png",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#ffffff"
+    },
+    "loading": {
+      "backgroundColor": "#00ff00",
+      "backgroundImage": "./assets/backgrounds/loading.png",
+      "icon": "./assets/icons/loading.png",
+      "hideExponentText": true
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
